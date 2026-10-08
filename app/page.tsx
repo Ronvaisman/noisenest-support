@@ -55,8 +55,8 @@ export default function Home() {
             <h2 id="privacy-first">Your night stays yours.</h2>
           </div>
           <div className="prose-card">
-            <p>NoiseNest has no analytics SDK, advertising SDK, account system, microphone access, location access, or backend.</p>
-            <p>Mixes, playlists, schedules, favorites, and preferences are stored locally. Purchases are processed by Apple. Optional reminders use local notifications only after you choose to allow them.</p>
+            <p>NoiseNest has no analytics SDK, advertising SDK, account system, microphone access, or location access.</p>
+            <p>Mixes, playlists, schedules, favorites, and preferences are stored locally. Audio downloads use NoiseNest&apos;s Cloudflare-hosted service. Purchases are processed by Apple. Optional reminders use local notifications only after you choose to allow them.</p>
             <Link className="text-link" href="/privacy">Full privacy policy <span aria-hidden="true">→</span></Link>
           </div>
         </section>
@@ -67,7 +67,7 @@ export default function Home() {
             <h2 id="sound-origin">Every sound has a documented origin.</h2>
           </div>
           <div className="prose-card">
-            <p>NoiseNest includes 30 on-device colored-noise profiles, 555 original sound productions created for NoiseNest with ElevenLabs, and 15 carefully prepared CC0 field recordings. Credits and provenance remain available in the app and on this site.</p>
+            <p>NoiseNest includes 236 reviewed recordings across 114 featured sound titles and 122 optional other versions, plus 23 on-device colored-noise profiles and 30 binaural-beat profiles. Ten recordings are included as the starter library. Credits and provenance remain available in the app and on this site.</p>
             <p className="fine-print">NoiseNest is a wellness utility, not a medical device, and does not diagnose or treat any condition.</p>
             <Link className="text-link" href="/licenses">Sound licenses and provenance <span aria-hidden="true">→</span></Link>
           </div>

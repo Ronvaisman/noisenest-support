@@ -13,7 +13,7 @@ test("exports the production NoiseNest home page under the GitHub Pages base pat
   const html = await exportedHTML();
   assert.match(html, /NoiseNest — Offline Sleep Sounds/i);
   assert.match(html, /Every sound has a documented origin\./i);
-  assert.match(html, /555 original sound productions/i);
+  assert.match(html, /236 reviewed recordings/i);
   assert.match(html, /single, optional purchase—not a subscription/i);
   assert.match(html, /href="\/noisenest-support\/support\/"/i);
   assert.match(html, /src="\/noisenest-support\/app-icon\.png"/i);
@@ -28,7 +28,7 @@ test("exports every release support and legal route", async () => {
   assert.match(pages[2], /actionable reminder/i);
   assert.match(pages[3], /noisenest@proton\.me/i);
   assert.match(pages[5], /Standard Licensed Application End User License Agreement/i);
-  assert.match(pages[6], /555 original NoiseNest productions/i);
+  assert.match(pages[6], /236 reviewed recordings/i);
 });
 
 test("the public site ships no analytics or tracking integration", async () => {
