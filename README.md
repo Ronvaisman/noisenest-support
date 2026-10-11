@@ -21,4 +21,4 @@ npm test
 
 ## Public-content boundary
 
-This repository contains only the public website and public artwork. NoiseNest application source, audio, release records, credentials, and signing material belong only in the private application repository.
+This repository contains only the public website and public artwork. NoiseNest application source, production records, credentials, and signing material belong in the private application repository. Approved release audio is distributed separately through the app's Cloudflare-hosted audio service; this site describes that delivery and its privacy implications.
