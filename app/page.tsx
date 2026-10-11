@@ -67,7 +67,7 @@ export default function Home() {
             <h2 id="sound-origin">Every sound has a documented origin.</h2>
           </div>
           <div className="prose-card">
-            <p>NoiseNest includes 236 reviewed recordings across 114 featured sound titles and 122 optional other versions, plus 23 on-device colored-noise profiles and 30 binaural-beat profiles. Ten recordings are included as the starter library. Credits and provenance remain available in the app and on this site.</p>
+            <p>NoiseNest includes 236 reviewed recordings, 120 retained original music tracks, and 30 on-device binaural-beat presets across 18 categories. The library offers 264 featured sounds and 122 optional other versions, with at least three free sounds in every category. Ten recordings are included as the starter library. Credits and provenance remain available in the app and on this site.</p>
             <p className="fine-print">NoiseNest is a wellness utility, not a medical device, and does not diagnose or treat any condition.</p>
             <Link className="text-link" href="/licenses">Sound licenses and provenance <span aria-hidden="true">→</span></Link>
           </div>

@@ -22,9 +22,9 @@ const groups = [
   {
     title: "Downloads and offline listening",
     items: [
-      ["What works offline?", "Twenty-three colored-noise profiles and thirty binaural-beat profiles are generated on your device, and ten starter recordings are included. Completed downloads stay on your device for offline listening until you remove them or delete the app."],
-      ["Why does a sound show Download?", "The reviewed recording library has 114 featured sound titles and 122 optional other versions. Recordings outside the starter library download over HTTPS from NoiseNest’s Cloudflare-hosted audio service. Starting an available-to-you sound downloads its featured category pack; choosing another version also downloads that recording."],
-      ["How do I download the full library?", "Open Settings and choose Download All. Featured versions are selected by default; Include Other Versions adds the optional recordings. NoiseNest shows the remaining download size before you confirm. Download All on Wi-Fi Only is enabled by default."],
+      ["What works offline?", "Thirty binaural-beat presets are generated on your device, and ten starter recordings are included. Completed downloads stay on your device for offline listening until you remove them or delete the app."],
+      ["Why does a sound show Download?", "The recording library has 234 featured recordings and 122 optional other versions. Recordings outside the starter library download over HTTPS from NoiseNest’s Cloudflare-hosted audio service. Starting an available-to-you sound downloads its featured category pack; choosing another version also downloads that recording."],
+      ["How do I download the full library?", "Open Settings and choose Download All. Download All requires Pro. Featured versions are selected by default; Include Other Versions adds the optional recordings. NoiseNest shows the remaining download size before you confirm. Download All on Wi-Fi Only is enabled by default."],
       ["Will Download All finish after I force-quit?", "Keep NoiseNest open while downloading. iOS permits only limited background time, and force-quitting interrupts the download. Completed recordings remain saved; reopen NoiseNest and tap Download All again to download the missing files."],
       ["How do I free space?", "Open Settings, then Manage Sound Packs. Remove one category or all downloads. Sounds using a pack must first be removed from the player. Included recordings and on-device generators remain available."],
     ],
@@ -41,6 +41,7 @@ const groups = [
   {
     title: "NoiseNest Pro, privacy, and support",
     items: [
+      ["Which sounds are free?", "Every category has at least three free featured sounds, with 67 free sounds across the library. Free recordings can be downloaded and kept for offline playback. Pro unlocks the remaining sounds and additional mixing and playlist features."],
       ["Is Pro a subscription?", "No. NoiseNest Pro is one optional lifetime non-consumable purchase. The App Store displays the local price before purchase."],
       ["How do I restore Pro?", "Open Settings and choose Restore Purchases while signed in to the Apple Account used for the purchase. Family Sharing depends on Apple’s account and family settings."],
       ["How do I request a refund?", "Apple processes billing and refunds. Visit reportaproblem.apple.com and sign in with the Apple Account used for the purchase."],
